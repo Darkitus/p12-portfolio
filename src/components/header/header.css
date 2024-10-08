@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.headerLogo {
+  width: 60px;
+  height: 60px;
+}
+
+.whiteFilter {
+  filter: brightness(0) invert(1);
+}
