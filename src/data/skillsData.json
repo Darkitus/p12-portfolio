@@ -1,0 +1,30 @@
+[
+  {
+    "id": "skill_1",
+    "name": "HTML",
+    "icon": "fab fa-html5",
+    "level": "Débutant",
+    "gradient": "linear-gradient(45deg, #e34c26, #f06529)"
+  },
+  {
+    "id": "skill_2",
+    "name": "CSS",
+    "icon": "fab fa-css3-alt",
+    "level": "Débutant",
+    "gradient": "linear-gradient(45deg, #264de4, #2965f1)"
+  },
+  {
+    "id": "skill_3",
+    "name": "JavaScript",
+    "icon": "fab fa-js-square",
+    "level": "Débutant",
+    "gradient": "linear-gradient(45deg, #f7df1e, #f7df1e)"
+  },
+  {
+    "id": "skill_4",
+    "name": "React",
+    "icon": "fab fa-react",
+    "level": "Débutant",
+    "gradient": "linear-gradient(45deg, #61dafb, #20c997)"
+  }
+]

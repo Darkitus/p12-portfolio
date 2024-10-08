@@ -8,15 +8,11 @@ const githubIcon =
 const Projects = () => {
   return (
     <section id="projects">
-      <h2>Projets</h2>
+      <h2 className="projectsTitle">Projets</h2>
       <div className="projectsGrid">
         {projectsData.map((project) => (
           <div key={project.id} className="projectCard">
-            <img
-              src={project.image}
-              alt={project.title}
-              className="projectImage"
-            />
+            <img src={project.image} alt="" className="projectImage" />
             <h3>{project.title}</h3>
             <div className="projectLinks">
               {project.siteLink && (
