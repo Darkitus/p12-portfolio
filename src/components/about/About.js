@@ -7,9 +7,21 @@ const About = () => {
     <section id="about">
       <div className="aboutContent">
         <h1 className="aboutTitle">A propos</h1>
-        <p className="aboutDescription">
-          Faut que je trouve des choses à écrire ici
-        </p>
+        <div className="aboutDescription">
+          <p className="descriptionParagraph">
+            Je m'appelle Lorette Bruno et je suis un Intégrateur Web débutant.
+          </p>
+          <p className="descriptionParagraph">
+            Bien que je sois encore au début de mon parcours dans le domaine,
+            j'ai déjà acquis des compétences solides en HTML, CSS, JavaScript,
+            et React.
+          </p>
+          <p className="descriptionParagraph">
+            J'aime relever de nouveaux défis et continuer à apprendre pour
+            perfectionner mes compétences et proposer des projets modernes et
+            efficaces.
+          </p>
+        </div>
         <div className="socialList">
           <a
             href="https://github.com/Darkitus"
@@ -47,6 +59,14 @@ const About = () => {
               <span className="skillText">{skill.level}</span>
             </li>
           ))}
+        </ul>
+      </div>
+      <div className="aboutFormationContainer">
+        <h2 className="aboutTitle">Formation effectué</h2>
+        <ul className="formationList">
+          <li className="formationItem">
+            2024 - Intégrateur Web chez OpenClassrooms
+          </li>
         </ul>
       </div>
     </section>

@@ -12,9 +12,10 @@ const Projects = () => {
       <div className="projectsGrid">
         {projectsData.map((project) => (
           <div key={project.id} className="projectCard">
-            <img src={project.image} alt="" className="projectImage" />
-            <h3>{project.title}</h3>
-            <div className="projectLinks">
+            <img src={project.image} alt="" className="cardImage" />
+            <h3 className="cardTitle">{project.title}</h3>
+            <p className="cardDescription">{project.description}</p>
+            <div className="cardLinks">
               {project.siteLink && (
                 <a
                   className="siteLink"

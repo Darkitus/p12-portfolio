@@ -3,6 +3,7 @@
     "id": 1,
     "title": "ohmyfood",
     "image": "https://raw.githubusercontent.com/Darkitus/P4/main/assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg",
+    "description": "Ohmyfood est un site fictif de réservation de restaurants. L'objectif était de créer un site web mobile-first à partir d'une maquette en mettant l'accent sur les animations CSS. J'ai aussi appris à structurer mes dossiers de projet. J'ai utilisé SASS pour organiser mon code CSS.",
     "siteLink": "https://darkitus.github.io/P4/",
     "repoLink": "https://github.com/Darkitus/P4"
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "title": "Print it",
     "image": "https://raw.githubusercontent.com/Darkitus/P5/main/assets/images/slideshow/slide1.jpg",
+    "description": "Print it est un site web fictif d'une société d'impression. Il m'a permis d'apprendre les fondamentaux de JavaScript en dynamisant un site statique avec un carrousel interactif. J'ai appris à intégrer JavaScript avec HTML et CSS pour créer des éléments interactifs.",
     "siteLink": "https://darkitus.github.io/P5/",
     "repoLink": "https://github.com/Darkitus/P5"
   },
@@ -17,12 +19,14 @@
     "id": 3,
     "title": "Photographe",
     "image": "https://raw.githubusercontent.com/Darkitus/P9/main/assets/images/camera.png",
+    "description": "Photographe est un site web fictif de portfolio de photographe. Celà m'a permis d'apprendre à optimiser le référencement d'un site en améliorant sa performance et son accessibilité. J'ai utilisé des outils comme Lighthouse et Wave, et créé un rapport illustrant les résultats avant et après les modifications.",
     "siteLink": "https://darkitus.github.io/P9/",
     "repoLink": "https://github.com/Darkitus/P9"
   },
   {
     "id": 4,
     "title": "724 Events",
+    "description": "724 Events est un site web fictif de gestion d'événements. Ce projet m'a permis de débugger et finaliser le développement d'un site one-page. J'ai utilisé des tests pour identifier les bugs, puis les ai résolus avec l'aide des React Developer Tools. J'ai complété un cahier de recette avec des scénarios de test.",
     "image": "https://raw.githubusercontent.com/Darkitus/p10-remade/main/public/images/product-school-dJICd7b_LlE-unsplash.png",
     "repoLink": "https://github.com/Darkitus/p10-remade"
   }
